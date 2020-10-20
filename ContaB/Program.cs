@@ -20,14 +20,14 @@ namespace ContaB {
             }
             
             Console.WriteLine(c1);
-            Console.WriteLine();
+            Console.WriteLine("-----------------------");
 
             Console.Write("Entre um valor para depósito:");
             double deposito = double.Parse(Console.ReadLine());
             c1.Deposito(deposito);
             Console.WriteLine("Dados da conta atualizados:");
             Console.WriteLine(c1);
-            Console.WriteLine();
+            Console.WriteLine("-----------------------");
 
             Console.Write("Entre um valor para saque:");
             double saque = double.Parse(Console.ReadLine());
